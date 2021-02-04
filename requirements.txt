@@ -1,0 +1,4 @@
+Flask==1.1.2
+mysqlclient
+pymysql
+mysql-connector-python

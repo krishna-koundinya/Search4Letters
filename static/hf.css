@@ -1,7 +1,7 @@
 body {
   font-family:      Verdana, Geneva, Arial, sans-serif;
   font-size:        medium;
-  background-color: red;
+  background:       linear-gradient(to top left, #ffffff, #0572ee);
   margin-top:       5%;
   margin-bottom:    5%;
   margin-left:      10%;

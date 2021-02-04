@@ -8,8 +8,8 @@ from time import sleep
 
 app = Flask(__name__)
 
-app.config['dbconfig'] = {'host': '127.0.0.1', 'user': 'vsearch', 
-                        'password': 'vsearchpasswd', 'database': 'vsearchlogDB', }
+app.config['dbconfig'] = {'host': '127.0.0.1', 'user': '<your_mysql_username>', 
+                        'password': '<your_mysql_password>', 'database': 'vsearchlogDB', }
 
 @app.route('/login')
 def do_login() -> str:
@@ -60,7 +60,7 @@ def do_search() -> 'html':
 @app.route('/')
 @app.route('/entry')
 def entry_page() -> 'html':
-    return render_template('entry.html', the_title='Welcome to search4letters on the web!')
+    return render_template('entry.html', the_title='Welcome to search4letters in your phrase!')
 
 @app.route('/viewlog')
 @check_logged_in
@@ -88,4 +88,4 @@ def view_the_log() -> 'html':
 app.secret_key = "YouWillNeverGuessMySecretKey"
     
 if __name__=='__main__':
-    app.run(debug = True)
+    app.run(debug = False)

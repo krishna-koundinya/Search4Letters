@@ -70,7 +70,7 @@ Run the application from Search4Letters folder
 Search4Letters> python vsearch4web.py
 ```
 ## Output [Log]
-![alt text](./images/log.jpg?raw=true)
+![alt text](./images/log.JPG?raw=true)
 
 ## Built With
 

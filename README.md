@@ -3,7 +3,7 @@
 A Python based web application to find occurrence of given letters in a given phrase.  
 ## Getting Started
 
-You will need [Python 3.8](https://www.python.org/downloads/) and [MySQL](https://dev.mysql.com/downloads/mysql/) installed to run this application.  
+Required: [Python 3.8](https://www.python.org/downloads/) and [MySQL](https://dev.mysql.com/downloads/mysql/) installed to run this application.  
 Clone the repo and follow these steps to run the application.  
 Install [Anaconda](https://www.anaconda.com/) ( Optional )  
 
@@ -21,7 +21,7 @@ Activate the virtual environment
 ```
 (base) your\project\directory> conda activate <your_virtual_environment_name>
 ```
-You can deactivate the environment using
+Deactivate the environment using
 
 ```
 (your_environment_name) your\project\directory> conda deactivate
@@ -44,7 +44,7 @@ Run
 > mysqld --initialize --console
 ```
 Make necessary changes hereafter, like editing credentials.  
-Enter your 'user' and 'password' in vsearch4web.py
+Edit 'user' and 'password' in vsearch4web.py
 ### Creating Database and table
 Create a database named 'vsearchlogdb' using MySQL shell
 ```
@@ -75,7 +75,7 @@ Search4Letters> python vsearch4web.py
 ## Built With
 
 * [Flask](https://pypi.org/project/Flask/) - The web application framework
-* [MySQL](https://www.mysql.com/) - Relational Database
+* [MySQL](https://www.mysql.com/) - Database
 
 ## References
 
